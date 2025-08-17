@@ -30,7 +30,7 @@ repairPanel(){
 }
 
 while true; do
-    read -p "Apakah Anda yakin ingin memasang tema.[y/n]? " yn
+    read -p "Apakah Anda yakin ingin memasang tema.[Y/N]? " yn
     case $yn in
         [Yy]* ) repairPanel; break;;
         [Nn]* ) exit;;
