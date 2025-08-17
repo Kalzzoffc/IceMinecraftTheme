@@ -16,7 +16,7 @@ installTheme(){
     echo "Menginstal tema..."
     cd /var/www/pterodactyl
     rm -r IceMinecraftTheme
-    git clone https://raw.githubusercontent.com/Kalzzoffc/IceMinecraftTheme.git
+    git clone https://github.com/Kalzzoffc/IceMinecraftTheme.git
     cd IceMinecraftTheme
     rm /var/www/pterodactyl/resources/scripts/IceMinecraftTheme.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
